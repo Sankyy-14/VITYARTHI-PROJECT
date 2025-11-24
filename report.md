@@ -2,10 +2,10 @@
 
 ## Cover Page
 **Project Title:** Student Academic Performance Analyzer  
-**Author:** Your Name  
+**Author:** Sanket Suri 
 **Course:** Python Programming  
-**Institution:** VITyarthi / Your College  
-**Date:** YYYY-MM-DD
+**Institution:** VITyarthi / VIT Bhopal University 
+**Date:** 24/11/2025
 
 ---
 
@@ -33,39 +33,35 @@ Students and teachers need an easy-to-use tool to compute performance metrics an
 - Reliability: robust error handling
 - Maintainability: modular code
 
-## 6. System Architecture
-(Insert the architecture diagram image here. A simple block diagram as described in the submission.)
-
-## 7. Design Decisions & UML
+## 6. Design Decisions & UML
 - Used pandas for tabular operations for productivity and correctness.
 - Visualizations generated with matplotlib.
 - Modular design: data_loader, analyzer, visualizer, main.
 
-## 8. Implementation Details
+## 7. Implementation Details
 File listing and brief explanation:
 - src/data_loader.py — loads and sanitizes CSV
 - src/analyzer.py — computes totals, percentage, grade, toppers
 - src/visualizer.py — saves plots to reports/
 - src/main.py — orchestrates execution
 
-## 9. Sample Outputs
+## 8. Sample Outputs
 (Include screenshots of charts and sample terminal output. Save these images from running the code.)
 
-## 10. Testing
+## 9. Testing
 - Unit tests for compute_metrics (suggested)
 - Data validation tests (missing values, non-numeric entries)
 
-## 11. Challenges & Learnings
+## 10. Challenges & Learnings
 - Handling missing data and ensuring numeric conversion
 - Deciding grade boundaries and report format
 
-## 12. Future Enhancements
+## 11. Future Enhancements
 - GUI using Tkinter / PyQt
 - Add predictive analytics (regression to forecast performance)
 - Database backend for large classes
 - Authentication & multi-user support
 
-## 13. References
+## 12. References
 - pandas documentation
 - matplotlib documentation
-
